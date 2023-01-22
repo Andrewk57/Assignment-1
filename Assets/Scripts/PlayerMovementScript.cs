@@ -82,4 +82,5 @@ public class PlayerMovementScript : MonoBehaviour
             isJump = true;
         }
     }
+    
 }
