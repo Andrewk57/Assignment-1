@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b97cff8da54c19241af9886978025c06
+guid: b67c37eab9e88074c8795d4e2ac19bb5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_0
+      name: RockTile_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 34
-        width: 16
-        height: 16
+        y: 161
+        width: 31
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46563c27c9345bf4e8801ce9971f88c8
-      internalID: 1139635799
+      spriteID: 661532c2a304c4f42921e77fcf712afd
+      internalID: 1644450658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockTile_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a808c5a3261b84793b81db11b6348c
+      internalID: -459414448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockTile_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 94
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2014c14765c5a74397497f32bb05b41
+      internalID: -1180753448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockTile_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 128
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fca46c9078a244b999006966989be4
+      internalID: 1476809963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RockTile_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b44f5b8259e8834f866b7e727956084
+      internalID: 1689434203
       vertices: []
       indices: 
       edges: []
@@ -139,7 +223,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f8716fc442a65c443b9ad5bb8501e6fd
+    spriteID: 9c2f987cc1062ee4da5cb553c4ea837d
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +231,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sheet_0: 1139635799
+      RockTile_0: 1644450658
+      RockTile_4: 1689434203
+      RockTile_3: 1476809963
+      RockTile_2: -1180753448
+      RockTile_1: -459414448
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

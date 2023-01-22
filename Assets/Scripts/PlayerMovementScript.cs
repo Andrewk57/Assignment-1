@@ -32,7 +32,7 @@ public class PlayerMovementScript : MonoBehaviour
     }
     void MoveForward()
     {
-        Debug.Log("Triggered movement");
+        //Debug.Log("Triggered movement");
         if (Time.timeScale >= 1f)
         {
             move = Input.GetAxis("Horizontal");
@@ -46,7 +46,7 @@ public class PlayerMovementScript : MonoBehaviour
     {
 
         MoveForward();
-        float rotation = 0f; // variable to store rotation amount
+        float rotation = 0f; 
 
         if (Input.GetKey(KeyCode.A) && Time.timeScale >= 1f)
         {
