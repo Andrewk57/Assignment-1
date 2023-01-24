@@ -6,7 +6,7 @@ using TMPro;
 public class coinScript : MonoBehaviour
 {
     public TextMeshProUGUI amt;
-    static int score = 0;
+    static public int score = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

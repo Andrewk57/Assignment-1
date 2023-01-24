@@ -65,6 +65,7 @@ public class PlayerMovementScript : MonoBehaviour
         }
         if (Input.GetButtonDown("Jump") && isJump == false && Time.timeScale >= 1f)
         {
+            Debug.Log("Jumped");
             rb.AddForce(new Vector2(rb.velocity.x, JumpHeight));
         }
     }
