@@ -16,12 +16,14 @@ public class deathScreen : MonoBehaviour
     {
         if (SpikeScript.isDead==true)
         {
+
             Time.timeScale = 0f;
+            AudioListener.volume = 0f;
             DeathScreen.SetActive(true);
         }
-        else
+       else
         {
-            Time.timeScale = 1f;
+            AudioListener.volume = 1f;
             DeathScreen.SetActive(false);
         }
     }

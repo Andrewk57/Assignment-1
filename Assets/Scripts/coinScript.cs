@@ -7,6 +7,7 @@ public class coinScript : MonoBehaviour
 {
     public TextMeshProUGUI amt;
     static public int score = 0;
+    public AudioSource coinPickup;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,6 +15,7 @@ public class coinScript : MonoBehaviour
         {
             score++;
             amt.text = score.ToString();
+            coinPickup.Play();
             Destroy(gameObject);
         }
     }
